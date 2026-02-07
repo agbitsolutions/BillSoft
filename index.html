@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>BillSoft – GST Billing & Invoicing Software with WhatsApp & E-Invoice</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description"
+    content="Smart GST billing software for retailers, wholesalers, and manufacturers with e-invoice, e-way bill, inventory, templates, automation, and real-time reports.">
+  <meta name="keywords"
+    content="billing software, GST billing software, invoice software India, GST invoicing tool, free billing software demo, automated invoicing, WhatsApp invoice software, e-invoice generation software, waybill software India, GST compliant billing solution" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Agb Technologies">
+
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="BillSoft – Smart GST Billing & Invoicing Software" />
+  <meta property="og:description"
+    content="Simplify GST billing with BillSoft. Create invoices, generate e-invoices & waybills, and share invoices instantly via WhatsApp. Start your free demo today!" />
+  <meta property="og:url" content="https://www.billsoft.in/" />
+  <meta property="og:site_name" content="Billsoft - A Billing Software" />
+  <meta property="og:image" content="https://www.billsoft.in/images/main/billsoft_og_image.webp" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1WS7MR1D4X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-1WS7MR1D4X');
+  </script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link rel="stylesheet" href="/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+  <!-- PRE-LOADER -->
+  <div class="preloader" id="preloader">
+    <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+
+  <!-- NAVBAR START -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="/">
+        <div
+          style="background: #3157a2; color: #fff; padding: 4px 10px; border-radius: 6px; font-weight: 900; margin-right: 8px;">
+          BT</div>
+        <span style="font-size: 1.5rem; font-weight: 800; color: #000;">Bill<span
+            style="color: #3157a2;">Tech</span></span>
+      </a>
+
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item mx-2 text-uppercase"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item mx-2 text-uppercase"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item mx-2 text-uppercase"><a class="nav-link" href="#customization">Customization</a></li>
+          <li class="nav-item mx-2 text-uppercase"><a class="nav-link" href="#testimonials">Reviews</a></li>
+          <li class="nav-item mx-2 text-uppercase"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item d-flex align-items-center me-3">
+            <a href="#contact" class="nav-link text-uppercase">CONTACT</a>
+            <img src="/calling_gif.gif" alt="calling" style="width: 25px; height: 25px; margin-left: 2px;">
+          </li>
+        </ul>
+        <div class="d-flex align-items-center">
+          <a href="https://wa.me/+919049874780" target="_blank" class="btn btn-signup">Book A Free Demo <i
+              class="fa fa-arrow-right ms-1"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Slider -->
+  <section class="p-0">
+    <div id="homepageSlider" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner slider-bg">
+        <!-- Slide 1: Primary Demo -->
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row align-items-center g-5 pt-0 pb-5">
+              <div class="col-lg-6" data-aos="fade-right">
+                <h1 class="hero-title">EXPERIENCE BILLSOFT FREE <br> TRY BEFORE YOU BUY</h1>
+                <form id="slider_form" class="mt-4">
+                  <div class="input-group input-group-custom shadow-sm">
+                    <span class="input-group-text border-0 bg-transparent fw-bold">+91</span>
+                    <input type="tel" class="form-control" placeholder="Enter mobile number" required
+                      pattern="[0-9]{10}">
+                    <button type="submit" class="btn btn-custom">Get Free Demo <i
+                        class="fa fa-arrow-right ms-1"></i></button>
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-6" data-aos="fade-left">
+                <img src="/image copy 11.png" class="img-fluid rounded" alt="BillSoft Billing Demo">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 2: GST Simplicity -->
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row align-items-center g-5 py-5">
+              <div class="col-lg-6">
+                <h1 class="hero-title">SMART GST BILLING <br> MADE SIMPLE</h1>
+                <p class="fs-5 mb-4 text-muted"><i class="bi bi-check-circle-fill text-primary me-2"></i> Simplify GST
+                  invoicing with 100% accuracy</p>
+                <p class="fs-5 mb-4 text-muted"><i class="bi bi-check-circle-fill text-primary me-2"></i> Hassle-free
+                  billing for every business size</p>
+                <a href="#contact" class="btn btn-signup px-5 py-3">Start Now</a>
+              </div>
+              <div class="col-lg-6">
+                <img src="/image copy 16.png" class="img-fluid rounded" alt="GST Billing">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 3: WhatsApp Invoicing -->
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row align-items-center g-5 py-5">
+              <div class="col-lg-6">
+                <div class="d-flex align-items-center mb-4">
+                  <i class="bi bi-whatsapp text-success fs-1 me-3"></i>
+                  <h1 class="hero-title mb-0">Send Invoices via WhatsApp</h1>
+                </div>
+                <p class="fs-5 mb-3 text-muted">Save Time And Share Invoices With Customers Instantly - No Extra Step
+                  Needed.</p>
+                <div class="check-list">
+                  <div class="mb-3 d-flex align-items-center fs-5"><i
+                      class="bi bi-check2-all text-success me-2 fs-3"></i> Direct WhatsApp Sharing</div>
+                  <div class="mb-3 d-flex align-items-center fs-5"><i
+                      class="bi bi-check2-all text-success me-2 fs-3"></i> Easy E-Invoice Generation</div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <img src="/image copy 14.png" class="img-fluid rounded" alt="WhatsApp Business">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider Indicators -->
+      <div class="carousel-indicators custom-indicators">
+        <button type="button" data-bs-target="#homepageSlider" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#homepageSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#homepageSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Metrics Section (Success Numbers) -->
+  <section class="bg-white">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title-center">Numbers That Define Our Success</h2>
+        <p class="text-muted text-uppercase">Trusted by businesses across industries.</p>
+      </div>
+      <div class="row g-4 text-center">
+        <div class="col-md-3 col-6">
+          <div class="counter text-primary"><span class="count">98</span>%</div>
+          <div class="label fw-bold">Satisfaction</div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="counter text-primary"><span class="count">41570</span>+</div>
+          <div class="label fw-bold">Invoices / Yr</div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="counter text-primary"><span class="count">32680</span>+</div>
+          <div class="label fw-bold">E-Invoices / Yr</div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="counter text-primary"><span class="count">50750</span>+</div>
+          <div class="label fw-bold">Way Bills / Yr</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Grid -->
+  <section id="features" class="bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h1 class="section-title-center" data-aos="fade-down">Features of GST Billing and Accounting</h1>
+        <p class="text-muted text-uppercase" data-aos="flip-up">Powerful tools designed to simplify invoicing and
+          compliance.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="feature-card shadow-sm border-0">
+            <div class="feature-icon"><i class="bi bi-lightning-charge-fill"></i></div>
+            <h5 class="fw-bold">1 Click E-Way Bill</h5>
+            <p>Generate waybills instantly with a single click ensuring accurate documentation.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card shadow-sm border-0">
+            <div class="feature-icon"><i class="bi bi-file-earmark-check-fill"></i></div>
+            <h5 class="fw-bold">Professional Invoices</h5>
+            <p>Create fully customized invoices that reflect your professional business identity.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card shadow-sm border-0">
+            <div class="feature-icon"><i class="bi bi-whatsapp"></i></div>
+            <h5 class="fw-bold">WhatsApp Integration</h5>
+            <p>Share invoices directly via WhatsApp. No extra steps or manual exports needed.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card shadow-sm border-0">
+            <div class="feature-icon"><i class="bi bi-archive-fill"></i></div>
+            <h5 class="fw-bold">Inventory Tracking</h5>
+            <p>Manage stock levels in real-time with automated low-stock alerts and history.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card shadow-sm border-0">
+            <div class="feature-icon"><i class="bi bi-printer-fill"></i></div>
+            <h5 class="fw-bold">Multi-Format Print</h5>
+            <p>Support for A4, A5, and Thermal layouts to suit every business hardware.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card shadow-sm border-0">
+            <div class="feature-icon"><i class="bi bi-shield-check-fill"></i></div>
+            <h5 class="fw-bold">Daily Data Backup</h5>
+            <p>Your business data is secure with automatic daily cloud backups and recovery.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="bg-white">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5" data-aos="fade-right">
+          <h2 class="section-title-left">About BillTech</h2>
+          <h6 class="text-muted text-uppercase mb-4">Smarter Billing, Simplified</h6>
+          <p>Welcome to <strong>BillTech – A Perfect Billing Solution</strong> designed to make GST invoicing and
+            business management effortless. Whether you’re a retailer, wholesaler, or manufacturer.</p>
+          <p>With advanced capabilities like <strong>WhatsApp sharing, e-invoice generation, and real-time
+              reporting</strong>, BillTech isn’t just software – it’s your partner in business growth.</p>
+          <a href="#contact" class="btn btn-outline-primary rounded-pill px-4 mt-3">Learn More</a>
+        </div>
+        <div class="col-lg-6 offset-lg-1" data-aos="fade-left">
+          <img src="/image copy 10.png" class="img-fluid rounded shadow" alt="Software Preview">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Branded Invoices Section -->
+  <section class="bg-light">
+    <div class="container text-center">
+      <h2 class="section-title-center">Your bill, Your Brand</h2>
+      <p class="text-muted text-uppercase mb-5">Professional, fully customized invoices in multiple formats.</p>
+
+      <ul class="nav nav-tabs justify-content-center mb-5" id="printTabs" role="tablist">
+        <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#thermal">Thermal
+            Prints</button></li>
+        <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#a4">A4 Prints</button></li>
+        <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#a5">A5 Prints</button></li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane fade show active" id="thermal">
+          <img src="/image copy 15.png" class="img-fluid rounded shadow-sm w-100" alt="Thermal Print">
+        </div>
+        <div class="tab-pane fade" id="a4">
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-4"><img src="/image copy 3.png" class="img-fluid rounded shadow-sm" alt="A4 Format">
+            </div>
+            <div class="col-md-4"><img src="/image copy 4.png" class="img-fluid rounded shadow-sm" alt="A4 Format 2">
+            </div>
+            <div class="col-md-4"><img src="/image copy 18.png" class="img-fluid rounded shadow-sm" alt="A4 Format 3">
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="a5">
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-4"><img src="/image copy 20.png" class="img-fluid rounded shadow-sm" alt="A5 Format">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Industry Solutions -->
+  <section id="customization" class="bg-white">
+    <div class="container text-center">
+      <h1 class="section-title-center">Industry Specific Workflows</h1>
+      <p class="text-muted text-uppercase mb-5">Manage any business with one smart solution.</p>
+
+      <ul class="nav nav-pills tab-capsule mb-5 mx-auto" id="industryTabs" role="tablist"
+        style="max-width: fit-content;">
+        <li class="nav-item"><button class="nav-link active" data-bs-toggle="pill" data-bs-target="#sweet"
+            type="button">Sweet Shop</button></li>
+        <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#marble"
+            type="button">Marble Shop</button></li>
+      </ul>
+
+      <div class="tab-content text-start bg-light p-4 rounded-4 shadow-sm">
+        <div class="tab-pane fade show active" id="sweet">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-5">
+              <h3 class="fw-bold mb-3">SWEET SHOP SOLUTIONS</h3>
+              <p class="text-muted">Optimize operations with recipe costing, ingredients tracking, and automatic
+                inventory adjustments.</p>
+              <ul class="check-list mt-3">
+                <li><i class="bi bi-check-circle-fill text-primary"></i> Ingredient-level stock tracking</li>
+                <li><i class="bi bi-check-circle-fill text-primary"></i> Real-time raw material dashboard</li>
+                <li><i class="bi bi-check-circle-fill text-primary"></i> Integrated recipe costing module</li>
+              </ul>
+            </div>
+            <div class="col-lg-7">
+              <img src="/image copy 2.png" class="img-fluid rounded shadow" alt="Sweet Shop">
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="marble">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-5">
+              <h3 class="fw-bold mb-3">MARBLE SHOP SOLUTIONS</h3>
+              <p class="text-muted">Designed for precise slab management, variety tracking, and intelligent pricing by
+                size.</p>
+              <ul class="check-list mt-3">
+                <li><i class="bi bi-check-circle-fill text-primary"></i> Multi-slab size management</li>
+                <li><i class="bi bi-check-circle-fill text-primary"></i> Cut-to-sale automatic updates</li>
+                <li><i class="bi bi-check-circle-fill text-primary"></i> Batch & design tracking system</li>
+              </ul>
+            </div>
+            <div class="col-lg-7">
+              <img src="/image copy.png" class="img-fluid rounded shadow" alt="Marble Shop">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="bg-light">
+    <div class="container">
+      <h1 class="section-title-center mb-5">Frequently Asked Questions</h1>
+      <div class="accordion shadow-sm rounded-4 overflow-hidden" id="faqAccordion">
+        <div class="accordion-item border-0 border-bottom">
+          <h2 class="accordion-header"><button class="accordion-button collapsed py-4 fw-bold" type="button"
+              data-bs-toggle="collapse" data-bs-target="#q1">What is BillSoft and who can use it?</button></h2>
+          <div id="q1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body text-muted px-4">BillSoft is a smart GST billing software designed for businesses
+              of all sizes, from small shops to large manufacturing enterprises.</div>
+          </div>
+        </div>
+        <div class="accordion-item border-0">
+          <h2 class="accordion-header"><button class="accordion-button collapsed py-4 fw-bold" type="button"
+              data-bs-toggle="collapse" data-bs-target="#q2">Can I send invoices via WhatsApp?</button></h2>
+          <div id="q2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body text-muted px-4">Yes! You can share professional invoices instantly on WhatsApp
+              directly from the billing screen.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Demo Form -->
+  <section id="contact" class="demo-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7">
+          <div class="position-relative">
+            <img src="/image copy 12.png" class="img-fluid rounded shadow-lg" alt="Demo preview">
+            <div class="play-trigger"><i class="bi bi-play-fill text-white"></i></div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="demo-form shadow-lg p-5">
+            <h4 class="text-center mb-4 fw-bold">Book Live Demo</h4>
+            <form id="contactForm">
+              <input type="text" class="form-control mb-3 py-3 rounded-pill" placeholder="Full Name" required>
+              <input type="tel" class="form-control mb-3 py-3 rounded-pill" placeholder="Mobile Number" required
+                pattern="[0-9]{10}">
+              <select class="form-select mb-4 py-3 rounded-pill">
+                <option selected disabled>Best time to call</option>
+                <option>Any Time (11 AM To 6 PM)</option>
+                <option>Morning (10 AM To 1 PM)</option>
+                <option>Afternoon (1 PM To 4 PM)</option>
+                <option>Evening (4 PM To 6 PM)</option>
+              </select>
+              <div class="g-recaptcha mb-4" data-sitekey="6LdeaTMrAAAAAE4uJOOnayrisTifJdfrsvavXgwf"></div>
+              <button type="submit" class="btn btn-otp py-3 rounded-pill w-100 fw-bold">SUBMIT DETAILS</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-md-4">
+          <div class="d-flex align-items-center mb-4">
+            <div
+              style="background: #3157a2; color: #fff; padding: 4px 10px; border-radius: 6px; font-weight: 900; margin-right: 8px;">
+              BT</div>
+            <span style="font-size: 1.8rem; font-weight: 800; color: #fff;">Bill<span
+                style="color: #3157a2;">Tech</span></span>
+          </div>
+          <p class="opacity-75">Advanced GST Billing & Invoicing Software. Designed for speed, accuracy, and
+            reliability.</p>
+        </div>
+        <div class="col-md-3 offset-md-1">
+          <h5 class="text-white mb-4">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#about" class="text-white-50 text-decoration-none">About Us</a></li>
+            <li class="mb-2"><a href="#features" class="text-white-50 text-decoration-none">Key Features</a></li>
+            <li class="mb-2"><a href="#testimonials" class="text-white-50 text-decoration-none">Reviews</a></li>
+            <li class="mb-2"><a href="#faq" class="text-white-50 text-decoration-none">Support (FAQ)</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-white mb-4">Contact Info</h5>
+          <ul class="list-unstyled text-white-50">
+            <li class="mb-3 d-flex align-items-start">
+              <i class="bi bi-geo-alt-fill me-2 mt-1"></i>
+              <span>446/52, New Mangalwar Peth, Lane No-1C,<br>
+                Station Rd, City, Pune,<br>
+                Maharashtra 411011, India</span>
+            </li>
+            <li class="mb-3"><i class="bi bi-telephone-fill me-2"></i> +91 90498 74780</li>
+            <li class="mb-2"><i class="bi bi-envelope-fill me-2"></i> agbtechnologies247@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center mt-5 pt-4 border-top border-secondary">
+        <p class="mb-0 opacity-50">&copy; 2026 BillTech India. Powered by Agb Technologies</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Floating Controls Stack (Right Side) -->
+  <div class="floating-stack">
+    <!-- 1. Need Help Bubble -->
+    <div class="need-help-container" id="need-help-container">
+      <div class="need-help-bubble" onclick="document.querySelector('.chatbot-toggle').click()">Need Help?</div>
+      <button class="close-help"
+        onclick="document.getElementById('need-help-container').style.display='none'">×</button>
+    </div>
+
+    <!-- 2. WhatsApp Button -->
+    <a href="https://wa.me/+919049874780" class="whatsapp-float shadow-sm" target="_blank">
+      <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <!-- 3. Chatbot Toggle -->
+    <button class="chatbot-toggle shadow-sm" id="chatbot-toggle">
+      <i class="bi bi-robot"></i>
+    </button>
+  </div>
+
+  <!-- Chatbot Container (Right Side) -->
+  <div class="chatbot-container" id="chatbot-container">
+    <div class="chatbot-header">
+      <div class="d-flex align-items-center"><i class="bi bi-robot me-2"></i> BillSoft Assistant</div>
+      <button id="chatbot-close" class="btn-close btn-close-white" style="font-size: 0.8rem;"></button>
+    </div>
+
+    <div class="chatbot-options">
+      <button id="mode-billsoft-data" class="active">🧾 BillSoft</button>
+      <button id="mode-openai">🤖 General AI</button>
+    </div>
+
+    <div id="chatbot-messages" class="chatbot-messages"></div>
+
+    <div class="chatbot-input">
+      <input type="text" id="chatbot-input" placeholder="Type message...">
+      <button id="chatbot-send">Send</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
